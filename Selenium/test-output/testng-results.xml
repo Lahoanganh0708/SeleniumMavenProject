@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-09T16:51:00 ICT" name="Default suite" finished-at="2025-08-09T16:51:11 ICT" duration-ms="11860">
+  <suite started-at="2025-08-12T14:46:50 ICT" name="Default suite" finished-at="2025-08-12T14:46:58 ICT" duration-ms="8529">
     <groups>
     </groups>
-    <test started-at="2025-08-09T16:51:00 ICT" name="Default test" finished-at="2025-08-09T16:51:11 ICT" duration-ms="11860">
-      <class name="automation.testsuite.Day12_HandleCheckbox">
-        <test-method signature="chooseHobbies()[pri:0, instance:automation.testsuite.Day12_HandleCheckbox@4218d6a3]" started-at="2025-08-09T16:51:00 ICT" name="chooseHobbies" finished-at="2025-08-09T16:51:11 ICT" duration-ms="11823" status="PASS">
+    <test started-at="2025-08-12T14:46:50 ICT" name="Default test" finished-at="2025-08-12T14:46:58 ICT" duration-ms="8529">
+      <class name="automation.testsuite.Day12_Homework">
+        <test-method signature="handleDropdownList()[pri:0, instance:automation.testsuite.Day12_Homework@4218d6a3]" started-at="2025-08-12T14:46:50 ICT" name="handleDropdownList" finished-at="2025-08-12T14:46:58 ICT" duration-ms="8502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chooseHobbies -->
-      </class> <!-- automation.testsuite.Day12_HandleCheckbox -->
+        </test-method> <!-- handleDropdownList -->
+      </class> <!-- automation.testsuite.Day12_Homework -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
