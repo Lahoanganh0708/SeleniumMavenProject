@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T14:46:50 ICT" name="Default suite" finished-at="2025-08-12T14:46:58 ICT" duration-ms="8529">
+  <suite started-at="2025-08-15T15:47:40 ICT" name="Default suite" finished-at="2025-08-15T15:48:00 ICT" duration-ms="20095">
     <groups>
     </groups>
-    <test started-at="2025-08-12T14:46:50 ICT" name="Default test" finished-at="2025-08-12T14:46:58 ICT" duration-ms="8529">
-      <class name="automation.testsuite.Day12_Homework">
-        <test-method signature="handleDropdownList()[pri:0, instance:automation.testsuite.Day12_Homework@4218d6a3]" started-at="2025-08-12T14:46:50 ICT" name="handleDropdownList" finished-at="2025-08-12T14:46:58 ICT" duration-ms="8502" status="PASS">
+    <test started-at="2025-08-15T15:47:40 ICT" name="Default test" finished-at="2025-08-15T15:48:00 ICT" duration-ms="20095">
+      <class name="automation.testsuite.Day13_Homework">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:40 ICT" name="openBrowser" finished-at="2025-08-15T15:47:44 ICT" duration-ms="3928" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleDropdownList -->
-      </class> <!-- automation.testsuite.Day12_Homework -->
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginFailWrongBoth()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:44 ICT" name="loginFailWrongBoth" finished-at="2025-08-15T15:47:45 ICT" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailWrongBoth -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:45 ICT" name="closeBrowser" finished-at="2025-08-15T15:47:46 ICT" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:46 ICT" name="openBrowser" finished-at="2025-08-15T15:47:49 ICT" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginFailWrongEmail()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:49 ICT" name="loginFailWrongEmail" finished-at="2025-08-15T15:47:50 ICT" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailWrongEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:50 ICT" name="closeBrowser" finished-at="2025-08-15T15:47:50 ICT" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:50 ICT" name="openBrowser" finished-at="2025-08-15T15:47:54 ICT" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginFailWrongPassword()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:54 ICT" name="loginFailWrongPassword" finished-at="2025-08-15T15:47:55 ICT" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailWrongPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:55 ICT" name="closeBrowser" finished-at="2025-08-15T15:47:55 ICT" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:55 ICT" name="openBrowser" finished-at="2025-08-15T15:47:58 ICT" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginSuccess()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:58 ICT" name="loginSuccess" finished-at="2025-08-15T15:47:59 ICT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day13_Homework@74235045]" started-at="2025-08-15T15:47:59 ICT" name="closeBrowser" finished-at="2025-08-15T15:48:00 ICT" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day13_Homework -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
