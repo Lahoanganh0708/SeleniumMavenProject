@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day13_Homework">
+      <class name="automation.testsuite.Day14_Homework">
         <methods>
-          <include name="loginFailWrongBoth"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testUpdatePassword"/>
+          <include name="testRegister"/>
+          <include name="testLoginWithNewPassword"/>
         </methods>
-      </class> <!-- automation.testsuite.Day13_Homework -->
+      </class> <!-- automation.testsuite.Day14_Homework -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
