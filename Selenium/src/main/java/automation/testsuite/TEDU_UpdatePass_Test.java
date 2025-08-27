@@ -25,7 +25,7 @@ public class TEDU_UpdatePass_Test extends commonBase {
 
 	@Test
 	public void loginSuccessfully() throws InterruptedException {
-		tedu.loginFunction("lahoanganh2004@gmail.com", "1234567");
+		tedu.loginFunction("lahoanganh2004@gmail.com", "ssuqu102");
 		Thread.sleep(3000);
 		assertTrue(driver.findElement(By.id("my_account")).isDisplayed());
 	}
@@ -33,7 +33,7 @@ public class TEDU_UpdatePass_Test extends commonBase {
 	@Test
 	public void updatePassSuccessfully() throws InterruptedException {
 		loginSuccessfully();
-		tedu.updatePassword("1234567", "ssuqu102");
+		tedu.updatePassword("ssuqu102", "1234567");
 		Thread.sleep(3000);
 		assertTrue(driver.findElement(By.xpath("//div[@Class='alert alert-success']")).isDisplayed());
 	}
@@ -45,7 +45,7 @@ public class TEDU_UpdatePass_Test extends commonBase {
 
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	    WebElement result = wait.until(ExpectedConditions
-	        .visibilityOfElementLocated(By.xpath("//h4[@class='title']/a[contains(text(),'ASP.NET')]")));
+	        .visibilityOfElementLocated(By.xpath("//h3[@class='md']/a")));
 
 	    assertTrue(result.isDisplayed());
 	}
