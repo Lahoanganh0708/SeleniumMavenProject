@@ -41,7 +41,7 @@ public void updatePassword(String oldPass, String newPass) throws InterruptedExc
 	textConfirmNewPassword.sendKeys(newPass);
 	btnCapNhat.click();
 }
-public void searchCourseJS(String keyword) throws InterruptedException {
+public void search(String keyword) throws InterruptedException {
     JavascriptExecutor js = (JavascriptExecutor) driver;
     js.executeScript("document.getElementsByName('keyword')[0].value='" + keyword + "';");
     js.executeScript("document.getElementsByName('keyword')[0].form.submit();");

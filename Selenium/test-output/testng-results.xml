@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T19:00:22 ICT" name="Default suite" finished-at="2025-08-27T19:00:47 ICT" duration-ms="25267">
+  <suite started-at="2025-09-01T21:54:34 ICT" name="Default suite" finished-at="2025-09-01T21:54:50 ICT" duration-ms="16182">
     <groups>
     </groups>
-    <test started-at="2025-08-27T19:00:22 ICT" name="Default test" finished-at="2025-08-27T19:00:47 ICT" duration-ms="25267">
-      <class name="automation.testsuite.TEDU_UpdatePass_Test">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.TEDU_UpdatePass_Test@5fe94a96]" started-at="2025-08-27T19:00:22 ICT" name="openBrowser" finished-at="2025-08-27T19:00:26 ICT" duration-ms="3663" status="PASS">
+    <test started-at="2025-09-01T21:54:34 ICT" name="Default test" finished-at="2025-09-01T21:54:50 ICT" duration-ms="16182">
+      <class name="automation.testsuite.Day16_Homework2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day16_Homework2@6771beb3]" started-at="2025-09-01T21:54:34 ICT" name="openBrowser" finished-at="2025-09-01T21:54:40 ICT" duration-ms="5709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginSuccessfully()[pri:0, instance:automation.testsuite.TEDU_UpdatePass_Test@5fe94a96]" started-at="2025-08-27T19:00:26 ICT" name="loginSuccessfully" finished-at="2025-08-27T19:00:29 ICT" duration-ms="3208" status="PASS">
+        <test-method signature="verifyAlertMessage()[pri:0, instance:automation.testsuite.Day16_Homework2@6771beb3]" started-at="2025-09-01T21:54:40 ICT" name="verifyAlertMessage" finished-at="2025-09-01T21:54:50 ICT" duration-ms="10442" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginSuccessfully -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.TEDU_UpdatePass_Test@5fe94a96]" started-at="2025-08-27T19:00:29 ICT" name="openBrowser" finished-at="2025-08-27T19:00:31 ICT" duration-ms="2478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="searchCourseSuccessfully()[pri:0, instance:automation.testsuite.TEDU_UpdatePass_Test@5fe94a96]" started-at="2025-08-27T19:00:31 ICT" name="searchCourseSuccessfully" finished-at="2025-08-27T19:00:37 ICT" duration-ms="5859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchCourseSuccessfully -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.TEDU_UpdatePass_Test@5fe94a96]" started-at="2025-08-27T19:00:37 ICT" name="openBrowser" finished-at="2025-08-27T19:00:40 ICT" duration-ms="2393" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="updatePassSuccessfully()[pri:0, instance:automation.testsuite.TEDU_UpdatePass_Test@5fe94a96]" started-at="2025-08-27T19:00:40 ICT" name="updatePassSuccessfully" finished-at="2025-08-27T19:00:47 ICT" duration-ms="7637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePassSuccessfully -->
-      </class> <!-- automation.testsuite.TEDU_UpdatePass_Test -->
+        </test-method> <!-- verifyAlertMessage -->
+      </class> <!-- automation.testsuite.Day16_Homework2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,6 +3,7 @@ package automation.testsuite;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -25,7 +26,7 @@ public class TEDU_UpdatePass_Test extends commonBase {
 
 	@Test
 	public void loginSuccessfully() throws InterruptedException {
-		tedu.loginFunction("lahoanganh2004@gmail.com", "ssuqu102");
+		tedu.loginFunction("lahoanganh2004@gmail.com", "1234567");
 		Thread.sleep(3000);
 		assertTrue(driver.findElement(By.id("my_account")).isDisplayed());
 	}
@@ -33,22 +34,32 @@ public class TEDU_UpdatePass_Test extends commonBase {
 	@Test
 	public void updatePassSuccessfully() throws InterruptedException {
 		loginSuccessfully();
-		tedu.updatePassword("ssuqu102", "1234567");
+		tedu.updatePassword("1234567", "ssuqu102");
 		Thread.sleep(3000);
 		assertTrue(driver.findElement(By.xpath("//div[@Class='alert alert-success']")).isDisplayed());
 	}
 
 	@Test
 	public void searchCourseSuccessfully() throws InterruptedException {
-	    loginSuccessfully();
-	    tedu.searchCourseJS("ASP Net");
-
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    WebElement result = wait.until(ExpectedConditions
-	        .visibilityOfElementLocated(By.xpath("//h3[@class='md']/a")));
-
-	    assertTrue(result.isDisplayed());
+		loginSuccessfully();
+		Thread.sleep(3000);
+		assertTrue(driver.findElement(By.id("my_account")).isDisplayed());
+		tedu.search("Web API");
+		Thread.sleep(5000);
+		List<WebElement> titleSearchResults = driver.findElements(By.xpath("//div[@class='post-title']/h3/a"));
+		List<WebElement> contentSearchResults = driver.findElements(By.xpath("//div[@class='post-content']/p"));
+		for (WebElement titleElement : titleSearchResults) {
+			String actualTitle = titleElement.getText();
+			System.out.println("actualTitle is: " + actualTitle);
+			if (actualTitle.contains("Web API")) {
+				assertTrue(true);
+			} else {
+				for (WebElement contentElement : contentSearchResults) {
+					String actualContent = contentElement.getText();
+					System.out.println("actualContent is: " + actualContent);
+					assertTrue(actualContent.contains("Web API"));
+				}
+			}
+		}
 	}
-
-
 }
