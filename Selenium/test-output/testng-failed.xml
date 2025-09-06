@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day16_AlertPractive1">
+      <class name="automation.testsuite.Day17_Homework">
         <methods>
+          <include name="HandleZaloChat"/>
           <include name="openBrowser"/>
-          <include name="HandleAlertWithOkAndCancel"/>
         </methods>
-      </class> <!-- automation.testsuite.Day16_AlertPractive1 -->
+      </class> <!-- automation.testsuite.Day17_Homework -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

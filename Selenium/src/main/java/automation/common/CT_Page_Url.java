@@ -9,4 +9,6 @@ public class CT_Page_Url {
 	public static final String CODESTAR_URL = "https://tedu.com.vn/dang-nhap.html";
 	public static final String ALERT_URL_1 = "https://demo.automationtesting.in/Alerts.html";
 	public static final String ALERT_URL_2 = "https://demo.guru99.com/test/delete_customer.php";
+	public static final String GURU99_URL = "https://demo.guru99.com/popup.php";
+	public static final String CODESTAR2_URL = "https://codestar.vn/";
 }

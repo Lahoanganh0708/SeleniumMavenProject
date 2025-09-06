@@ -71,4 +71,10 @@ public class commonBase {
 		if (driver != null)
 			driver.close();
 	}
+	public void clickByJS(By locator)
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		WebElement element = driver.findElement(locator);
+		js.executeScript("arguments[0].click();", element);
+	}
 }
