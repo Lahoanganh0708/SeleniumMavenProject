@@ -5,6 +5,8 @@ import static org.testng.Assert.assertTrue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CT_Page_Url;
@@ -13,9 +15,12 @@ import automation.pageLocator.Alada_Login_LogoutPage_Factory;
 
 public class Alada_LoginLogout_Test extends commonBase {
 @BeforeMethod
-public void openBrowser() {
-	driver = initFirefox(CT_Page_Url.ALADA_URL);
+@Parameters("browser")
+public void openBrowser(@Optional("chrome") String browser) {
+	driver = setupDriver(browser);
+	driver.get(CT_Page_Url.ALADA_URL);
 }
+
 @Test
 public void LoginSuccessfully() {
 	Alada_Login_LogoutPage_Factory factory = new Alada_Login_LogoutPage_Factory(driver);

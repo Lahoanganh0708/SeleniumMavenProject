@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day17_Homework">
+      <class name="automation.testsuite.Day18_Homework2">
         <methods>
-          <include name="HandleZaloChat"/>
           <include name="openBrowser"/>
+          <include name="checkZaloLink"/>
         </methods>
-      </class> <!-- automation.testsuite.Day17_Homework -->
+      </class> <!-- automation.testsuite.Day18_Homework2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
